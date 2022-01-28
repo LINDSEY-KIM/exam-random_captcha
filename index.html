@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random captcha exam</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+
+    <div class="wrap">
+        <header>Captcha in JavaScript</header>
+        <div class="captcha_area">
+            <div class="captcha_img">
+                <img src="img/captcha-bg.png" alt="">
+                <span class="captcha"></span>
+            </div>
+
+            <button class="reload_btn">
+                <i class="fas fa-redo-alt"></i>
+            </button>
+        </div>
+
+        <form action="#" class="input_area">
+            <input type="text" placeholder="Enter Captcha" maxlength="6" spellcheck="false" required>
+            <button class="check_btn">Check</button>
+        </form>
+        <div class="status_text"></div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
